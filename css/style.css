@@ -2,4 +2,37 @@ html,
 body {
   margin: 0;
   padding: 0;
+  color: #fff;
+}
+
+.card {
+  border: 2px solid magenta;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.card-title,
+.footer-text,
+.footer-btn {
+  font-family: 'Blinker', sans-serif;
+}
+
+.card-title {
+  color: #05cbe9;
+  font-size: 28px;
+}
+
+.card-text {
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-content {
+  padding: 1.2rem;
+  background-color: #111d4a;
+}
+
+.footer-btn {
+  font-size: 20px;
 }
