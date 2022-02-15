@@ -6,7 +6,6 @@ body {
 }
 
 .card {
-  border: 2px solid magenta;
   width: 90%;
   margin: 0 auto;
   max-width: 800px;
