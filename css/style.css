@@ -2,13 +2,21 @@ html,
 body {
   margin: 0;
   padding: 0;
-  color: #fff;
 }
 
 .card {
   width: 90%;
   margin: 0 auto;
   max-width: 800px;
+  color: #fff;
+  background-color: #111d4a;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  object-fit: cover;
+  height: 150px;
 }
 
 .card-title,
@@ -20,18 +28,45 @@ body {
 .card-title {
   color: #05cbe9;
   font-size: 28px;
+  margin: 0;
 }
 
 .card-text {
   font-size: 16px;
+  line-height: 1.5;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .card-content {
   padding: 1.2rem;
-  background-color: #111d4a;
 }
 
 .footer-btn {
   font-size: 20px;
+  background: #05cbe9;
+  color: #111d4a;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.35em 1em;
+  letter-spacing: 1px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 3em;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.footer-text span {
+  font-weight: 700;
+  display: block;
+  font-size: 1.25em;
 }
