@@ -91,4 +91,13 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .card-title {
+    font-size: 36px;
+  }
+
+  .card-text {
+    font-size: 18px;
+    max-width: 500px;
+  }
 }
